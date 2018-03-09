@@ -1,0 +1,7 @@
+[
+  {id:"fTop", text:"Contactos", items: [
+      {id: "proveedores", text:"Proveedores"},
+      {id: "clientes", text:"Clientes"}
+    ]
+}
+]

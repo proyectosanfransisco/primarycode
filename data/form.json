@@ -1,0 +1,11 @@
+[
+  {
+   type:"fieldset", inputWidth:"220", position:"label-left", labelWidth:"70", list: [
+     {type:"input",    name: "name", label:"Cedula"},
+     {type:"input",    name: "name2", label:"Nombres"},
+     {type:"input",    name: "name3", label:"Apellidos"},
+     {type:"input",    name: "name4", label:"Correo"},
+     {type:"button",    name: "name5", value:"Aceptar"},
+   ]
+  }
+]
