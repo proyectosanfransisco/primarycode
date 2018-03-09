@@ -101,7 +101,7 @@ function editar() {
 }
 
 //Consultar Usuarios
-function consultar() {	
+function consultar() {
 	_get();
 }
 
@@ -171,10 +171,11 @@ function removeRow() {
 	grid.deleteRow(selId);
 	//deletes the row with the specified id}
 }
-
+// comentario
 // Datos y eventos de Formulario ......
 var contactForm = layout.cells("b").attachForm();
 contactForm.loadStruct("data/form.json");
+// aaaaaaaaa
 
 contactForm.attachEvent("onButtonClick", function (id) {
 
@@ -192,4 +193,3 @@ contactForm.attachEvent("onButtonClick", function (id) {
 // Diseño de la parte derecha de la pantalla .....
 layout.cells("b").setHeight(50);
 layout.cells("b").setText("Section B");
-
